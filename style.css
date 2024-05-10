@@ -77,7 +77,7 @@ html{
     margin-top: 40px;
     border: 10px solid #1CB698;
     display: block;
-    width: 70%;
+    width: 55%;
     margin: auto;
     border-radius: 100%;
 }
@@ -270,13 +270,19 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
+.skill img {
+    border-radius: 50%; /* Puedes ajustar el valor según tus preferencias */
+    max-width: 50px; /* Puedes ajustar el tamaño máximo según tus preferencias */
+    height: auto;
+}
+
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .html{
@@ -285,7 +291,7 @@ html{
 }
 @keyframes html {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .react{
@@ -294,7 +300,7 @@ html{
 }
 @keyframes react {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .css{
@@ -303,7 +309,7 @@ html{
 }
 @keyframes css {
     0%{width: 0%;}
-    100%{width: 79%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .git{
@@ -312,7 +318,7 @@ html{
 }
 @keyframes git {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .comunicacion{
@@ -321,7 +327,7 @@ html{
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .trabajo{
@@ -330,7 +336,7 @@ html{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .creatividad{
@@ -339,7 +345,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .dedicacion{
@@ -348,7 +354,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 100%;}
 }
 
 .skills .skill .problema{
@@ -357,7 +363,7 @@ html{
 }
 @keyframes problema {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 100%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
